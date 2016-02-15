@@ -1,0 +1,12 @@
+// Create a program that prints a list of files
+// in a given directory, filtered by the extension
+// of the files.
+var fs = require('fs');
+
+var dir = process.argv[2];
+var ext = "." + process.argv[3];
+
+fs.readdir(dir, function (err, list) {
+	
+})
+
